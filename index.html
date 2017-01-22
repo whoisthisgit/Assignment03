@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>My Bio</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            html, body {
+                height:100%;
+            }
+            body {
+                min-height:100%;
+                display:flex;
+                flex-direction:column;
+                
+            }
+            .wrapper {
+                flex:1;
+            }
+            .main-header {
+                background-color: #CCC;
+                height: 50px;
+                width: 70%;
+                padding: 5px 15%;
+            }
+            .main-header h1 {
+                line-height: 50px;
+            }
+            .footer {
+                height: 50px;
+                background-color: #CCC;
+            }
+            span.logo {
+                color: blue;
+            }
+            .copyright {
+                color: blue;
+                font-weight: bold;
+                width: 100%;
+                text-align: center;
+                padding: 15px 0;
+            }
+            .box-shadow {
+                box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+            }
+            .content-top {
+                60%;
+                height: 180px;
+                background-color: #CCC;
+                margin: 10px 0;
+            }
+
+            .content-bio {
+                position: relative;
+                background-color: #AAA;
+                width: 70%;
+                max-width:980px;
+                height: 180px;
+                margin: 0 auto;
+            }
+            .content-bio img {
+                width: 150px;
+                height: 170px;
+                margin: 5px 15px 5px 5px;
+            }
+            .bio-text {
+                position: absolute;
+                top: 5px;
+                left: 170px;
+            }
+            .content-bottom {
+                overflow: auto;
+                width: 70%;
+                max-width: 980px;
+                position: relative;
+                margin: 0 auto;
+            }
+            .sidebar {
+                float: left;
+                background-color: #f1f1f1;
+                width: 25%;
+                height: 500px;
+            }
+
+            .main-content {
+                float: right;
+                background-color: green;
+                width: 71%;
+                height: 500px;
+                padding: 0 2% 0 2%;
+            }
+
+            .sidebar-links {
+                background-color: #f1f1f1;
+            }
+            .sidebar-links li {
+                width: 100%;
+                height: 30px;
+                border: 1px solid #CCC;
+                border-top: 1px solid #FFF;
+            }
+            .sidebar-links a {
+                display: block;
+                padding: 7px;
+                text-decoration: none;
+                transition-duration: 0.7s;
+            }
+            .sidebar-links a:hover {
+                background-color: #CCC;
+                color: #000;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="main-header box-shadow">
+                <h1>Lucas Phan</h1>
+            </header>
+            <section class="content-top">
+                <article class="content-bio">
+                    <img src="./images/myPic.jpg" alt="my pic">
+                    <div class="bio-text">
+                        <h1>My Biography</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, pharetra venenatis erat nisl duis aliquet. Curabitur tellus imperdiet lacus, urna sed mollis pharetra eleifend doloribus, vehicula maecenas non fusce at sollicitudin erat, metus purus justo mauris tempus in. Tincidunt
+                            et feugiat enim dui lacus, dolor nulla dolor tempor leo maecenas consequat.
+                        </p>
+                    </div>
+                </article>
+            </section>
+            <section class="content-bottom">
+                <aside class="sidebar">
+                    <ul class="sidebar-links">
+                        <li><a href="http://www.google.com" target="_blank">Google.com</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </aside>
+                <article class="main-content">
+                    <div> </div>
+                    <div> </div>
+                </article>
+            </section>
+            
+        </div>
+        <footer class="footer box-shadow">
+            <p class="copyright">
+                (c) Created by Lucas Phan
+            </p>
+        </footer>
+       
+    </body>
+</html>
