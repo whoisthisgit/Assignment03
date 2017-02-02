@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bio</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <style>
+    section.three-column {
+        margin-top:30px;
+    }
+    aside.three-column {
+        width:15%;
+    }
+    aside.sidebar-right {
+        width:18%;
+        float:right;
+        background-color: #CCC;
+        height:100%;
+        padding:1%;
+        min-height:480px;
+    }
+    article.three-column-content {
+        width:61%;
+        position:absolute;
+        left:15%;
+        float:none;
+    }
+    table.courses-table {
+        width:100%;
+    }
+    table.courses-table tr {
+        padding:3px 5px;
+        background-color: ghostwhite;
+        border:1px solid #CCC;
+    }
+    table.courses-table tr:nth-child(even) {
+        background-color: #CCC;
+    }
+    table.courses-table tr:nth-child(odd) {
+        background-color: #FFF;
+    }
+    table.courses-table tr:hover {
+        background-color: yellow;
+    }
+    table.courses-table td, table.courses-table th {
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-header box-shadow">
+            <h1>Kevin James</h1>
+        </header>
+        <section class="content-bottom three-column">
+            <aside class="sidebar three-column">
+                <ul class="sidebar-links">
+                    <li><a href="http://www.google.com" target="_blank">Google.com</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </aside>
+            <article class="main-content three-column-content">
+                <div class="gallery">
+                    <h1>My Courses</h1>
+                    <table class="courses-table" colspan="1" border="1">
+                        <tr>
+                            <th>Course</th>
+                            <th>Section</th>
+                            <th>Instructor</th>
+                            <th>Days</th>
+                        </tr>
+                        <tr>
+                            <td>FIN 120</td>
+                            <td>?</td>
+                            <td>Jennifer Miele</td>
+                            <td>MW</td>
+                        </tr>
+                        <tr>
+                            <td>PHIL 151</td>
+                            <td>?</td>
+                            <td>?</td>
+                            <td>MW</td>
+                        </tr>
+                          <tr>
+                            <td>IS 183</td>
+                            <td>?</td>
+                            <td>Lucas Phan</td>
+                            <td>TTH</td>
+                        </tr>
+                        <tr>
+                            <td>IS 166</td>
+                            <td>?</td>
+                            <td>Sasan Rahmatian</td>
+                            <td>TTH</td>
+                        </tr>                  
+                    </table>
+                </div>
+            </article>
+            <aside class="sidebar-right">
+                <h1>This is Heading</h1>
+                <p>Hi there...</p>
+            </aside>
+        </section>
+    </div>
+    <footer class="footer box-shadow">
+        <p class="copyright">
+            (c) Created by Kevin James
+        </p>
+    </footer>
+</body>
+</html>
