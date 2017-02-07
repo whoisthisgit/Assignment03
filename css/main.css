@@ -125,3 +125,48 @@
 				width:125px;
 				height:100px;
 			}
+            section.one-column {
+           margin-top: 30px;
+       }
+       article.main-content.one-column {
+           width: 100%;
+           padding: 0;
+           background-color: transparent;
+       }
+       div.login-form {
+           width: 300px;
+           height: 250px;
+           background-color: #CCC;
+           margin: 90px auto 0;
+           border-radius: 7px;
+           padding: 20px;
+       }
+       input.login-input {
+           width: 100%;
+           padding: 5px 2px;
+           border-radius: 5px;
+           margin: 7px 0;
+       }
+       h1.login-h1 {
+           margin-bottom: 15px;
+       }
+       button.login-button {
+           padding: 5px 15px;
+           border-radius: 7px;
+           background-color: blueviolet;
+           color: #FFF;
+       }
+       p.error-message {
+           display: none;
+           margin-top: 10px;
+           padding: 5px;
+           width: 100%;
+           color: #FFF;
+           background-color: red;
+           border: 1px solid yellow;
+           border-radius: 5px;
+       }
+       div.login-page {
+           background-image:url('../images/login-background.jpg');
+           background-size:cover;
+       }
